@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Aichat_CommerceTemplate:etc/menu.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
       <!-- <add id="Aichat_CommerceTemplate::aichat" title="Aichat" module="Aichat_CommerceTemplate" sortOrder="51" resource="Aichat_CommerceTemplate::aichat"/>
       <add id="Aichat_CommerceTemplate::webhook" title="Webhook" module="Aichat_CommerceTemplate" sortOrder="10" action="commercetemplate/webhook" resource="Aichat_CommerceTemplate::webhook" parent="Aichat_CommerceTemplate::aichat"/> -->
