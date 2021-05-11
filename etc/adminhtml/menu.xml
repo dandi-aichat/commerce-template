@@ -6,8 +6,8 @@
       <!-- <add id="Aichat_CommerceTemplate::token" title="Access Token" module="Aichat_CommerceTemplate" sortOrder="11" action="commercetemplate/token" resource="Aichat_CommerceTemplate::token" parent="Aichat_CommerceTemplate::aichat"/>
       <add id="Aichat_CommerceTemplate::logs" title="Logs" module="Aichat_CommerceTemplate" sortOrder="12" action="commercetemplate/logs" resource="Aichat_CommerceTemplate::logs" parent="Aichat_CommerceTemplate::aichat"/> -->
 
-      <add id="Aichat_CommerceTemplate::aichat" title="Aichat" module="Aichat_CommerceTemplate" sortOrder="50" parent="Magento_Backend::system" resource="Aichat_CommerceTemplate::aichat"/>
-      <add id="Aichat_CommerceTemplate::webhook" title="Webhook" module="Aichat_CommerceTemplate" sortOrder="10" action="commercetemplate/webhook" resource="Aichat_CommerceTemplate::webhook" parent="Aichat_CommerceTemplate::aichat"/>
+      <add id="Aichat_CommerceTemplate::aichat" title="Aichat" translate="title" module="Aichat_CommerceTemplate" sortOrder="50" parent="Magento_Backend::system" resource="Aichat_CommerceTemplate::aichat"/>
+      <add id="Aichat_CommerceTemplate::webhook" title="Webhook" translate="title" module="Aichat_CommerceTemplate" sortOrder="10" action="commercetemplate/webhook" resource="Aichat_CommerceTemplate::webhook" parent="Aichat_CommerceTemplate::aichat"/>
       
     </menu>
 </config>
